@@ -10,7 +10,7 @@ int main(int argc, char **argv)
     //SetConsoleOutputCP(1251);
 
     int a, b, c, sum;
-    //printf("Пожалуйста введите три числа a,b,c типа int с пробелами!\n");
+    //printf("Please enter three type  int numbers a,b,c with spaces!\n");
     scanf("%d%d%d", &a, &b, &c);
     sum = (a + b + c);
     printf("%d+%d+%d=%d\n",a,b,c,sum);
